@@ -1,0 +1,101 @@
+body{
+    font-family: 'Noto Serif', serif;
+  }
+  .hero-section{
+    height: 300px;
+    overflow: hidden;
+   }
+  .hero-image{
+    width: 100%;
+   }
+  .profile-photo{
+    height: 150px;
+    border-radius: 150px;
+    margin-left: 50px;
+    margin-top: -90px;
+    width: 150px;
+    border: 5px solid grey;
+    
+  }
+  .photo-profile-detail{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+  }
+  .name-section .name{
+    font-size: 30px;
+  }
+  .name-section .about-title{
+    font-size: 20px;
+  }
+  
+  .mid-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  
+  .tabs-link-list{
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  .tabs-link-list li.selected{
+    background-color: #ffb5a7;
+  }
+  .tabs-link-list li.selected a{
+    color: black;
+  }
+  
+  .tabs-link-list a {
+    text-decoration: none;
+    color: #354f52;
+  }
+  
+  .tabs-link-list li {
+    border: 1px solid #edede9;
+    padding: 10px;
+    width: 150px;
+  }
+  .mid-section, .name-section{
+    width: 700px;
+  }
+  
+  .main-section dt{
+    font-weight: bold;
+  }
+  
+  .about-me-row {
+    display: flex;
+  }
+
+
+
+  .movies-section ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+   
+  
+     
+ }
+ .favroite-list-item  .name-section{
+     
+  text-align: center;
+ }
+ .favroite-poster{
+     height : 200px;
+ }
+
+ .books-section ul{
+   display: flex;
+   gap: 50px;
+   list-style-type: none;
+   
+ }
+ p {
+   text-align: center;
+ }
+ 
